@@ -49,7 +49,7 @@ googleAnalytics = ""
     id = "about"
     type = "list"
     title = "Fair Data"
-    description = "Imagine a society of a completely private digital life where your privacy is not weaponised against you just to sell you more things. Imagine a society where data is used for social good and value is distributed fairly."
+    description = "Imagine a society of a completely private digital life where your privacy is not weaponised against you just to sell you more things. Imagine a society where data is used for social good and value is distributed fairly."
     buttontext = "next"
     # the picture is stored at static/images/
     picture = "pic01.jpg"
