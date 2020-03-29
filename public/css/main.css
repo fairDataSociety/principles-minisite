@@ -1315,7 +1315,7 @@
 		background-image: url("images/bg.jpg");
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
-		background-size: auto,						cover;
+		background-size: cover;
 	}
 
 	html.is-loading body *, html.is-loading body *:before, html.is-loading body *:after {
