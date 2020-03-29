@@ -43,6 +43,7 @@ googleAnalytics = ""
     title = "Fair Data Society Principles"
     description = "11 Ethical guidelines for a free and fair world in the digital age."
     buttontext = "begin"
+    picture = "overlay.png"
 
   # about section
   [[params.block]]
