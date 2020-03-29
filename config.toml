@@ -245,17 +245,29 @@ googleAnalytics = ""
       [[params.footer.social]]
         title = "Twitter"
         icon = "fa-twitter"
-        link = "#"
+        link = "https://twitter.com/FairDataSociety"
 
       [[params.footer.social]]
         title = "Telegram"
         icon = "fa-telegram"
         link = "https://t.me/fairdatasociety"
 
+
+      [[params.footer.social]]
+        title = "Medium"
+        icon = "fa-medium"
+        link = "https://medium.com/fair-data-society"
+
+
       [[params.footer.social]]
         title = "Discourse"
         icon = "fa-discourse"
         link = "https://forum.fairdatasociety.org"
+
+      [[params.footer.social]]
+        title = "Github"
+        icon = "fa-github"
+        link = "https://github.com/fairDataSociety/principles-minisite"
 
     # copyright
     #[params.footer.copyright.notice]
@@ -267,4 +279,4 @@ googleAnalytics = ""
         text = "Design: [HTML5UP](//html5up.net)"
 
       [[params.footer.copyright.notice]]
-        text = "Demo Images: [Unsplash](//unsplash.com/)"
+        text = "Images: [Unsplash](//unsplash.com/)"
