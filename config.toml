@@ -1,0 +1,270 @@
+# Site settings
+baseurl = ""
+languageCode = "en-us"
+title = "Fair data society principles"
+theme = "hugo-highlights-theme"
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = ""
+
+[params]
+
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesom's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engings feel free to add a few informations.
+  # This lines will be inserted as meta tags.
+  name = "Fair data society"
+  description = "Guarding freedom in the digital age."
+
+  # For a static site it's not possible to provide a contact form. The contact form uses
+  # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
+  # Visitors can send up to a 1000 emails each month
+  #
+  # How to setup formspree
+  #
+  # - set your email address under 'email' below
+  # - upload the generated site to your server
+  # - send a dummy email to yourself to confirm your account
+  # - click the confirmation link in the email from www.formspree.io
+  # - That's all. Enjoy mailing!
+  email = "gregor@fairdatasociety.org"
+
+  # If this param is set to true, every section gets an own background image (located at static/images)
+  # to change the image you could use the param picture on every section.
+  # If it's disabled you could change the background to overwrite the bg.jpg and overlay.png to set the background.
+  backgroundpersection = true
+
+  # hero Section
+  [params.hero]
+    type = "hero"
+    title = "Fair Data Society Principles"
+    description = "11 Ethical guidelines for a free and fair world in the digital age."
+    buttontext = "begin"
+
+  # about section
+  [[params.block]]
+    id = "about"
+    type = "list"
+    title = "Fair Data"
+    description = "Imagine a society of a completely private digital life where your privacy is not weaponised against you just to sell you more things. Imagine a society where data is used for social good and value is distributed fairly."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic01.jpg"
+
+      [[params.block.item]]
+      icon = "fa-thumbs-up"
+      title = "human rights"
+      [[params.block.item]]
+      icon = "fa-thumbs-up"
+      title = "digital integrity"
+      [[params.block.item]]
+      icon = "fa-thumbs-up"
+      title = "fair & ethical"
+      [[params.block.item]]
+      icon = "fa-thumbs-down"
+      title = "surveillance capitalism"
+
+
+  # principle 0 section
+  [[params.block]]
+    id = "principle0"
+    type = "custom2"
+    title = "Your data is you."
+    description = "Our data is us."
+    number = "Prime Directive"
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic02.jpg"
+
+  # principle 1 section
+  [[params.block]]
+    id = "principle1"
+    type = "custom"
+    title = "Ownership"
+    number = "Principle 1 / 10"
+    link = "https://forum.fairdatasociety.org/t/1-ownership/17"
+    description = "All the data related to an individual are part of their digital self. Just as organizations can’t own real people they can’t own others’ digital selves. Only individuals can own this data, while organisations can only have access to data, if an individual gives it to them. Data about an individual can’t be recorded only accessed on per need basis, enabling utilisation without appropriation."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic03.jpg"
+
+  # principle 2 section
+  [[params.block]]
+    id = "principle2"
+    type = "custom"
+    title = "Zero-data"
+    number = "Principle 2 / 10"
+    link = "https://forum.fairdatasociety.org/t/2-zero-data/18"
+    description = "Privacy and non-collection of personal data should be the main defaults in all contexts of high data production volumes. If collection of personal data is absolutely necessary, it should be minimal and only for the scope necessary to perform the intended function."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic04.jpg"
+
+  # principle 3 section
+  [[params.block]]
+    id = "principle3"
+    type = "custom"
+    title = "Control"
+    number = "Principle 3 / 10"
+    link = "https://forum.fairdatasociety.org/t/3-control/19"
+    description = "The rights to data created about or by an individual are only their. The individual controls the context in which their data is produced & processed and how that context is activated."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic01.jpg"
+
+  # principle 4 section
+  [[params.block]]
+    id = "principle4"
+    type = "custom"
+    title = "Consensual access"
+    number = "Principle 4 / 10"
+    link = "https://forum.fairdatasociety.org/t/4-consensual-access/20"
+    description = "Individual’s data can only be accessed on the basis of consent. The further use and sharing of data can also only be done with explicit and informed consent, based on clearly stated purposes of how, why, where and how long personal data will be used and stored. The consent must have the option of being equally easy to revoke as it was to give, without any coercion to give it in the first place."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic02.jpg"
+
+  # principle 5 section
+  [[params.block]]
+    id = "principle5"
+    type = "custom"
+    title = "Economic benefit & Fair value"
+    number = "Principle 5 / 10"
+    link = "https://forum.fairdatasociety.org/t/5-economic-benefit-fair-value/21"
+    description = "Data is a direct product of an individual’s labour and as such has direct economic value. Its owner must be fairly compensated for the use of this value, if the individual chooses to sell his/her data. The amount of compensation is based on a free agreement by both sides and a transparent, comparable pricing system that doesn’t seek to exploit the other side. This creates benefits for everyone involved in the process. Recognising data as labour is also a prerequisite for a balanced influence (see principle 7)."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic03.jpg"
+
+  # principle 6 section
+  [[params.block]]
+    id = "principle6"
+    type = "custom"
+    title = "Social good"
+    number = "Principle 6 / 10"
+    link = "https://forum.fairdatasociety.org/t/6-social-good/22"
+    description = "Organizations minimise personal data exchange on a need-to-know basis and maximise the social good through exchange and monetisation of anonymised data, that can’t be linked back to the individual. They pursue a set of sustainable development goals set by the UN such as providing new income streams to reduce poverty, provide industry innovation and infrastructure for example by creating new data markets or create new decent jobs & economic growth by responding to new demands etc."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic04.jpg"
+
+  # principle 7 section
+  [[params.block]]
+    id = "principle7"
+    type = "custom"
+    title = "Balanced influence"
+    number = "Principle 7 / 10"
+    link = "https://forum.fairdatasociety.org/t/7-balanced-influence/23"
+    description = "Organizations allow for the freedom of digital associations inside the organizations’ ecosystems and recognise outside associations. They also recognise these associations as legitimate counterparties when negotiating the rules of use of the associations’ members personal data. This way they enable conditions in which counterbalance to the concentration of power over personal data can be created."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic01.jpg"
+
+  # principle 8 section
+  [[params.block]]
+    id = "principle8"
+    type = "custom"
+    title = "Transparency & Accountability"
+    number = "Principle 8 / 10"
+    link = "https://forum.fairdatasociety.org/t/8-transparency-accountability/24"
+    description = "Organisations accessing and processing personal data provide clear, understandable and  explainable information on how, why, where and how long they use & store it. The individual must understand the risks, as well as social, ethical and societal consequences of data processing."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic02.jpg"
+
+  # principle 9 section
+  [[params.block]]
+    id = "principle9"
+    type = "custom"
+    title = "Ethics by design"
+    number = "Principle 9 / 10"
+    link = "https://forum.fairdatasociety.org/t/9-ethics-by-design/25"
+    description = "Organisations design their IT systems around an ethical treatment of all personal data; ethics can’t be an afterthought. These systems are privacy-oriented, interoperable, accessible and secure. They provide a pleasant experience for end users with clearly visible and easy-to-use privacy controls. Such systems ensure the same level of treatment for everyone that comes in contact, regardless of geographical origin or legal environment."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic03.jpg"
+
+  # principle 10 section
+  [[params.block]]
+    id = "principle10"
+    type = "custom"
+    title = "Openness & Interoperability"
+    number = "Principle 10 / 10"
+    link = "https://forum.fairdatasociety.org/t/10-openness-interoperability/26"
+    description = "Open-source should be the ideal pursued in as many instances as possible when releasing new software. Open-source software enhances the security of the code and keeps publishers honest about what their code actually does. Open-source software increases accountability, transparency, system interoperability, the rate of progress and the share of people who can benefit from new developments."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic04.jpg"
+
+  # infos section
+  [[params.block]]
+    id = "infos"
+    type = "thankyou"
+    title = "One more thing"
+    description = "Join the discussion and shape the principles at [forum.fairdatasociety.org](https://forum.fairdatasociety.org) or visit [fairdatasociety.org](https://fairdatasociety.org)."
+    text2 = "The principles in this document draw on the previous works of [DataEthics](https://dataethics.eu/knowledge/), [MyData](https://mydata.org/), [World Fair Trade Organisation](https://wfto.com/), [Status](https://our.status.im/our-principles/), [Ethical Design Manifesto](https://2017.ind.ie/ethical-design/) and various philosophical works."
+    # the picture is stored at static/images/
+    picture = "pic03.jpg"
+
+#  # custom section
+#  [[params.block]]
+#    id = "important"
+#    # to make custom section copy <theme>/layouts/partials/text.html to /layouts/partials/custom.html and edit it according to your needs.
+#    type = "custom"
+#    title = "Don't forget"
+#    description = "Curabitur massa ante, semper at massa et, semper pellentesque velit. Duis tempor est nisi, a gravida risus malesuada eget. Nunc rutrum arcu laoreet mauris sodales vehicula. Nunc iaculis felis ac dui egestas, vel ullamcorper tellus bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia sem porttitor, fringilla metus at, convallis quam. Integer convallis a justo non pellentesque."
+#    # the picture is stored at static/images/
+#    picture = "pic04.jpg"
+
+  # contact form
+  [[params.block]]
+    id = "contact"
+    type = "contact"
+    title = "Get in Touch"
+    picture = "pic05.jpg"
+
+    [params.block.form]
+      name = "Name"
+      email = "Your Email"
+      message = "Your Message"
+      buttontext = "send message"
+
+  # footer section
+  # this section includes last block and social icons
+
+  [params.footer]
+    enable = true
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+
+      [[params.footer.social]]
+        title = "Twitter"
+        icon = "fa-twitter"
+        link = "#"
+
+      [[params.footer.social]]
+        title = "Telegram"
+        icon = "fa-telegram"
+        link = "https://t.me/fairdatasociety"
+
+      [[params.footer.social]]
+        title = "Discourse"
+        icon = "fa-discourse"
+        link = "https://forum.fairdatasociety.org"
+
+    # copyright
+    #[params.footer.copyright.notice]
+
+      [[params.footer.copyright.notice]]
+        text = "© Fair data society"
+
+      [[params.footer.copyright.notice]]
+        text = "Design: [HTML5UP](//html5up.net)"
+
+      [[params.footer.copyright.notice]]
+        text = "Demo Images: [Unsplash](//unsplash.com/)"
