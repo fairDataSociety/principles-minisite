@@ -2820,6 +2820,9 @@
 			.main .image.primary {
 				display: block;
 				margin: 0 0 4em 0;
+				/* added by FDS */
+				max-height: 20px;
+				overflow: hidden;
 			}
 
 			.main .container {
