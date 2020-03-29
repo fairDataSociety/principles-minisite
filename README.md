@@ -2,7 +2,7 @@
 
 ## Install
 
-This site was build using Hugo and is based on the [Highlights theme by @schmanat](https://github.com/schmanat/hugo-highlights-theme). Due to custmisations, we recommend to use that repo and to follow instructions there.
+This site was build using [Hugo](https://gohugo.io) and is based on the [Highlights theme by @schmanat](https://github.com/schmanat/hugo-highlights-theme). Due to custmisations, we recommend to use that repo and to follow instructions there.
 
 ## What is Fair data society?
 
